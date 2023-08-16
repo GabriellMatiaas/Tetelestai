@@ -130,19 +130,11 @@
     border-radius: 16px;
   }
 
-  /* Estilos para dispositivos móveis (até 768px de largura) */
-@media (max-width: 768px) {
-  /* Adicione aqui suas regras de estilo específicas para dispositivos móveis */
-}
-
-/* Estilos para tablets e telas maiores (entre 769px e 1024px de largura) */
-@media (min-width: 769px) and (max-width: 1024px) {
-  /* Adicione aqui suas regras de estilo específicas para tablets */
-}
-
-/* Estilos para telas maiores, como desktops (acima de 1024px de largura) */
-@media (min-width: 1025px) {
-  /* Adicione aqui suas regras de estilo específicas para desktops */
+@media(max-width: 800px) {
+  .body{
+    min-width: 100%;
+    
+  }
 }
 
 
